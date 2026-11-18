@@ -1,0 +1,17 @@
+# Entorno virtual: carpeta con las librerías instaladas, no se sube a GitHub
+.venv/
+venv/
+
+# Caches de Python y Pytest: archivos temporales que se regeneran solos
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor / sistema: configuraciones locales de tu PC
+.idea/
+.vscode/
+.DS_Store
+
+# Capturas de pantalla generadas por los tests fallidos
+# (se crean al correr los tests, no hace falta versionarlas)
+reports/screenshots/
